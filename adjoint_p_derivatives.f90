@@ -32,10 +32,10 @@ contains
 
     integer :: iv, imu, is,iz,ivmu, it
 
-    allocate(g_term(naky,nakx,-nzgrid:nzgrid,ntubes,vmu_lo%llim_proc:vmu_lo%ulim_alloc))    
-    g_term = 0.
-    allocate(q_term(naky,nakx,-nzgrid:nzgrid,ntubes))
-    q_term = 0.
+    ! allocate(g_term(naky,nakx,-nzgrid:nzgrid,ntubes,vmu_lo%llim_proc:vmu_lo%ulim_alloc))    
+    ! g_term = 0.
+    ! allocate(q_term(naky,nakx,-nzgrid:nzgrid,ntubes))
+    ! q_term = 0.
 
 !    if (include_mirror) call get_mirror_term (g_term)
 !    if (include_parallel_streaming) call get_prll_strm_term (g_term)
